@@ -1,7 +1,7 @@
 {
-  "name": "static-site-boilerplate",
-  "type": "module",
-"version": "0.1.0",
+    "name": "static-site-boilerplate",
+    "type": "module",
+    "version": "0.1.0",
     "scripts": {
         "format": "prettier --write .",
         "lint": "eslint ."
