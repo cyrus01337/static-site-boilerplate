@@ -3,6 +3,7 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+    base: "/static-site-boilerplate/",
     clearScreen: false,
     preview: {
         host: true,

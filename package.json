@@ -10,7 +10,8 @@
         "vite": "^8.1.0"
     },
     "scripts": {
-        "build": "tsc --noEmit && vite build",
+        "build": "vite build",
+        "build:ci": "tsc --noEmit && vite build",
         "dev": "vite",
         "format": "biome check --write --no-errors-on-unmatched --linter-enabled=false",
         "lint": "eslint . && tsc --noEmit",
